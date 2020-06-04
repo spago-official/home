@@ -1,3 +1,36 @@
-.title {
-  color: #02ccba;
+header {
+  top: 0px;
+left: 0px;
+width: 1920px;
+height: 8094px;
+/* UI Properties */
+background: #005347 0% 0% no-repeat padding-box;
+opacity: 1;
+
+}
+ul{
+  float:left;
+  list-style: none;
+}
+li{
+  list-style: none;
+}
+.btn{
+  background-color:rgba(255,255,255,0);
+  transition :all 0.5s;
+  color:#005347;
+  line-height:65px;
+  padding: 0 25px;
+  display:block;
+}
+.btn:hover{
+  background-color:rgba(255,255,255,0.5)
+}
+.A{
+  top: 72px;
+left: 140px;
+width: 59px;
+height: 91px;
+background: #E72A19 0% 0% no-repeat padding-box;
+opacity: 1;
 }
