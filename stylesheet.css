@@ -14,15 +14,15 @@ li{
 body {
   top: 0px;
 left: 0px;
-width: 100%;
-height: 8094px;
+width: 1280px;
+height: 5396px;
 background: #005347 0% 0% no-repeat padding-box;
   opacity: 1;
 
 }
 header{
   width: 100%;
-  height: 1008px;
+  height: 672px;
 
 }
 ul{
@@ -36,7 +36,7 @@ ul{
   line-height:65px;
   padding: 0 25px;
   display:block;
-  font-size: 20px;
+  font-size: 13px;
 }
 .btn:hover{
   background-color:rgba(255,255,255,0.5)
@@ -48,14 +48,32 @@ ul{
 }
 .side-bar{
   float:left;
-  margin-left: 140px;
+  top:6.25%;
+  left:6.25%;
   position: fixed;
   top: 15px;
   left: 4%;
   z-index: 100;
-
 }
 .main{
   text-align: center;
-  top: 145px;
+  top: 270px;
+  height:672px;
+}
+.contents{
+  height:6984px;
+}
+.menu{
+  height:2980px;
+  background-color: white;
+}
+.spa {
+    margin-left:506px;
+    border-bottom: 1px solid #eee;
+      font-size: 13px;
+
+}
+.menu h2{
+    margin-left:506px;
+    padding-top: 214px;
 }
