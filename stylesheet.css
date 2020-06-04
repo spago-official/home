@@ -36,14 +36,22 @@ ul{
   line-height:65px;
   padding: 0 25px;
   display:block;
-  margin-left: 140px;
+  font-size: 20px;
 }
 .btn:hover{
   background-color:rgba(255,255,255,0.5)
 }
 .A{
-padding-left: 140px;
-width: 59px;
-height: 91px;
-opacity: 1;
+  display: block;
+  width: 36px;
+  background: url(spago_home_img/A.png) no-repeat;
+}
+.side-bar{
+  float:left;
+  margin-left: 140px;
+  position: fixed;
+  top: 15px;
+  left: 4%;
+  z-index: 100;
+
 }
