@@ -43,7 +43,7 @@ ul{
 }
 .A{
   display: block;
-  width: 36px;
+  width: auto;
   background: url(spago_home_img/A.png) no-repeat;
 }
 .side-bar{
@@ -54,4 +54,8 @@ ul{
   left: 4%;
   z-index: 100;
 
+}
+.main{
+  text-align: center;
+  top: 145px;
 }
